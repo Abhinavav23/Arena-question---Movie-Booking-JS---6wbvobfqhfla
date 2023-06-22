@@ -46,4 +46,37 @@ h4{
 .v-none{
     visibility: hidden;
 }
-
+#booker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.unavailable-seat{
+    background-color: red;
+}
+.unavailable-seat:hover{
+    cursor:no-drop;
+}
+.available-seat:hover{
+    background-color: rgb(0, 76, 0);
+    cursor: pointer
+}
+.available-seat{
+    background-color: green;
+}
+.booking-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(3, 75px);
+    gap: 10px;
+}
+#booker-grid-holder{
+    display: flex;
+    margin: 20px;
+    width: 70%;
+    justify-content: space-between;
+}
+.selected-seat{
+    outline: 4px solid blue;
+}
