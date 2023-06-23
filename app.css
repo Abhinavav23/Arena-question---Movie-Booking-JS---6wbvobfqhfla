@@ -80,3 +80,11 @@ h4{
 .selected-seat{
     outline: 4px solid blue;
 }
+#book-ticket-btn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
